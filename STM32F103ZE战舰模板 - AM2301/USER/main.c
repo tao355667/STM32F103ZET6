@@ -99,11 +99,11 @@ int main(void)
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 	
 	My_USART1_Init();
-	DHT11_Init();
+	AM2301_Init();
 		
 	while(1)
 	{
-		DHT11_Read_Data(&temp,&temp2,&humi,&humi2);
+		AM2301_Read_Data(&temp,&temp2,&humi,&humi2);
 		
 		
 		
