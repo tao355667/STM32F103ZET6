@@ -4,7 +4,9 @@
 
 开发板：正点原子战舰V3开发板（STM32F103ZET6），搭配7寸屏幕
 
-开发方式：库函数开发    IDE：Keil5
+开发方式：库函数开发（虽然落后，但当时上了贼船懒得改了）
+
+IDE：Keil5
 
 **STM32内部功能套路：**（GPIO、中断、定时器、看门狗等）
 
@@ -29,4 +31,4 @@
 
 安富莱：<https://www.armbbs.cn/forum.php>
 
-
+STM32官方文档：<https://www.stmcu.com.cn/Designresource/list/STM32F1/document/document>
